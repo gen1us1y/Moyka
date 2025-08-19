@@ -1,5 +1,3 @@
-import TeamMember from '../components/TeamMember'
-import ReviewCard from '../components/ReviewCard'
 import '../styles/pages/about.css'
 
 function About() {
@@ -7,12 +5,6 @@ function About() {
   const features = [
     
   ]
-
-  const reviews = [
-   
-  ]
-
-  
 }
 
 export default About

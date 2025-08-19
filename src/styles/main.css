@@ -41,6 +41,11 @@ img {
   height: auto;
 }
 
+.service-image{
+  height: 33%;
+  width: 33%;
+}
+
 /* Header styles */
 .header {
   background-color: #5B6E7C;

@@ -1,43 +1,18 @@
-import { useState, useEffect } from 'react'
-import NewsBanner from '../components/NewsBanner'
 import '../styles/pages/home.css'
 
 function Home() {
-  const [activeSlide, setActiveSlide] = useState(0)
-
-  const slides = [
-    {
-    
-    },
-    {
-    
-    },
-    {
-   
-    }
-  ]
-
-  const news = [
-    {
-    
-    },
-    {
-    
-    }
-  ]
-
-  const stats = [
-
-  ]
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveSlide((prev) => (prev + 1) % slides.length)
-    }, 5000)
-    return () => clearInterval(interval)
-  }, [])
-
-  
+  return (
+    <div class="container">
+                <h1>Добро пожаловать в H<sub>2</sub>O – сеть премиальных автомоек!</h1>
+                <h3><b>Безупречная чистота</b> – используем только профессиональную химию и современное оборудование</h3>
+                <h3><b>Бережный уход </b>– безопасные технологии мойки для защиты лакокрасочного покрытия</h3>
+                <h3><b>Экономия времени</b> – удобное расположение и быстрое обслуживание</h3>
+                <h3><b>Экологично </b>– очистка воды и забота о природе</h3>
+                <div><img src="images/avto.jpg"></img></div>
+                  <h2>График работы: ежедневно <b>с 9:00 до 22:00</b></h2>
+                  <h2><strong>Ваш автомобиль заслуживает идеального ухода – доверьте его Н2О!</strong></h2>
+      </div>
+  )
 }
 
 export default Home
