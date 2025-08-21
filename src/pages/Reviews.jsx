@@ -3,7 +3,7 @@ import { ApiContext } from '../contexts/ApiContext';
 import ReviewForm from '../components/ReviewForm';
 import ReviewCard from '../components/ReviewCard';
 import '../styles/components/reviews.css'
-import '../styles/pages/about.css'
+import '../styles/pages/review.css'
 
 export default function About() {
   const { API_URL } = useContext(ApiContext);

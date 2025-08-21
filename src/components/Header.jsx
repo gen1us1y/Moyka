@@ -23,7 +23,7 @@ function Header() {
             <li><Link to="/home">Главная</Link></li>
             <li><Link to="/services">Услуги</Link></li>
             <li><Link to="/events">Новости</Link></li>
-            <li><Link to="/about">Отзывы</Link></li>
+            <li><Link to="/reviews">Отзывы</Link></li>
             <li><Link to="/contact">Адрес</Link></li>
           </ul>
         </nav>
