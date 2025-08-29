@@ -37,6 +37,6 @@ npm run server
 ```
 
 ## Ссылки
-[Figma макет](https://www.figma.com/)
+[Figma макет]([https://www.figma.com/](https://www.figma.com/design/JVd1H6T0bjS735rhKcfXaP/Untitled--Copy-?node-id=0-1&t=BXe2KJ9qohNUOqOh-1))
 
 [GitHub репозиторий](https://github.com/gen1us1y/Moyka)
